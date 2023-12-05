@@ -1,0 +1,10 @@
+services:
+  node:
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+        - .:/var/www
+    command: "node day_1.js"
