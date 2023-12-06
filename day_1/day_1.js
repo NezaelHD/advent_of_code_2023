@@ -1,6 +1,6 @@
 let fs = require('fs');
 
-let input = fs.readFileSync('./input_day1.txt', 'utf8').toString().split('\n');
+let input = fs.readFileSync('./inputs/input_day1.txt', 'utf8').toString().split('\n');
 let result = 0;
 
 let checkNumber = function (value) {
